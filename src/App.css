@@ -1,3 +1,50 @@
+/*fonts*/
+@font-face {
+  font-family: Cormorant SC;
+  src: url(./assets/fonts/CormorantSC-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Cormorant SC;
+  src: url(./assets/fonts/CormorantSC-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Cormorant SC;
+  src: url(./assets/fonts/CormorantSC-Regular.ttf);
+  font-weight: 400;
+}
+
+/* Default CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #CE9461 !important;
+  color: #E0D8B0 !important;
+  font-family:'Cormorant', serif !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding:0;
+  line-height: normal;
+}
+
+
 .App {
   text-align: center;
 }
