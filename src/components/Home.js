@@ -1,25 +1,26 @@
 
-
 function Home() {
-    return(
+    return (
         <>
-        <div className="welcometext">
-        
-        <span style={"--i:1"}>H</span>
-        <span style={"--i:2"}>I</span>
-        <span style={"--i:3"}>I</span>
-        <span style={"--i:4"}>'</span>
-        <span style={"--i:5"}>M</span>
-        <span style={"--i:6"}>A</span>
-        <span style={"--i:7"}>A</span>
-        <span style={"--i:8"}>N</span>
-        <span style={"--i:9"}>D</span>
-        <span style={"--i:10"}>R</span>
-        <span style={"--i:11"}>E</span>
-        <span style={"--i:12"}>A</span>
+            <div className="welcometext">
+                <span>HI,&nbsp;</span>
+                <span>I'M &nbsp;</span>
+                <span>A</span>
+                <span>N</span>
+                <span>D</span>
+                <span>R</span>
+                <span>E</span>
+                <span>A</span>
 
-        </div>
+            </div>
+            <hr className="line"></hr>
+            <div>
+                <input type="textarea">
+
+                </input>
+            </div>
         </>
+
     )
 }
 
