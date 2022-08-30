@@ -1,3 +1,6 @@
+
+
+
 /*fonts*/
 @font-face {
   font-family: Cormorant SC;
@@ -40,10 +43,13 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #CE9461 !important;
+  background-color: #7992e0 !important;
   color: #E0D8B0 !important;
   font-family: 'Cormorant', serif !important;
+  /* background: url(./assets/img/sky.jpg) no-repeat; */
 }
+
+
 
 h1,
 h2,
@@ -65,11 +71,12 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
+  color:white;
 }
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #E0D8B0 !important;
+  background-color:  lightpink !important;
 }
 
 nav.navbar a.navbar-brand {
@@ -104,7 +111,7 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: #CE9461;
+  background:#FFFFE0;
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -232,11 +239,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .welcometext {
-  position: relative;
+  position: center;
   -webkit-box-reflect: below -20px linear-gradient(transparent,
       rgba(0, 0, 0, 2));
-  font-size: 60px;
-  margin-left: -700px;
+  font-size: 30px;
+  margin-right: 50px;
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -263,11 +270,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-.line {
-  margin-top: -350px;
-  background-color: #FCFFE7;
-  height: 15px;
+.backgroundimg{
+  min-height: 100% !important;
+  min-width: 1024px !important;
+  width: 100% !important;
+  height: auto !important;
 }
+
+
 
 
 

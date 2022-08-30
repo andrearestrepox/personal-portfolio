@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import git from '../assets/img/social-github.svg';
 import linkedin from '../assets/img/linkedin.svg';
 import logo from '../assets/img/logo.svg';
+import sky from '../assets/img/sky.jpg';
 
 
 
@@ -29,6 +30,8 @@ export const NavBar = () => {
     }
 
   return (
+
+      
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">

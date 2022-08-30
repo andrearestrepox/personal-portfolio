@@ -1,3 +1,4 @@
+import swirl from '../assets/img/backgroundswirl.jpg'
 
 function Home() {
     return (
@@ -13,15 +14,15 @@ function Home() {
                 <span>A</span>
 
             </div>
-            <hr className="line"></hr>
-            <div>
-                <input type="textarea">
-
-                </input>
-            </div>
+         
+            <img src={swirl} alt="background" className='backgroundimg'/>
+            
         </>
 
     )
 }
 
 export default Home;
+
+
+
