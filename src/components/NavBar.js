@@ -2,8 +2,6 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import git from '../assets/img/social-github.svg';
 import linkedin from '../assets/img/linkedin.svg';
-import logo from '../assets/img/logo.svg';
-import sky from '../assets/img/sky.jpg';
 
 
 
@@ -35,7 +33,9 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" />
+        <h1 className="name">Andrea Restepo</h1>
+
+            {/* <img src={logo} alt="Logo" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {/* <span className="navbar-toggler-icon"></span> */}
