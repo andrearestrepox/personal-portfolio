@@ -5,7 +5,7 @@ function Projects() {
         <>
             <h1>These Are My Projects</h1> 
 
-            <img src={sky} className="sky"/>
+            {/* <img src={sky} className="sky"/> */}
         </>
     )
 }

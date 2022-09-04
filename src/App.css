@@ -46,8 +46,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: white !important;
-  color: red !important;
+  background-color: #F8F0E3 !important;
+  color: black !important;
   font-family: 'Cormorant', serif !important;
   padding-bottom: 20px;
 }
@@ -55,7 +55,7 @@ body {
 .name {
   margin-left: -80px;
   font-size: 20px;
-  color: red;
+  color: black;
 }
 
 
@@ -96,7 +96,7 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   /* background-color: red; */
   font-weight: 400;
-  color: #FCFFE7;
+  color: black;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -121,14 +121,14 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: red;
+  background:transparent;
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid #FCFFE7;
+  border: 1px solid black;
 }
 
 .social-icon a::before {
@@ -136,7 +136,7 @@ span.navbar-text {
   width: 42px;
   height: 42px;
   position: absolute;
-  background-color: #FCFFE7;
+  background-color: white;
   border-radius: 50%;
   transform: scale(0);
   transition: 0.3s ease-in-out;
@@ -158,13 +158,13 @@ span.navbar-text {
 
 .navbar-text button {
   font-weight: 700;
-  color: #FCFFE7;
-  border: 1px solid #FCFFE7;
+  color:black;
+  border: 1px solid black;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
-  background-color: transparent;
+  background-color:transparent ;
   transition: 0.3s ease-in-out;
 }
 
@@ -177,7 +177,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #FCFFE7;
+  background-color: white;
   left: 0;
   top: 0;
   z-index: -1;
@@ -185,7 +185,7 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-  color: #CE9461;
+  color: brown;
 }
 
 .navbar-text button:hover::before {
@@ -212,7 +212,7 @@ nav.navbar .navbar-toggler-icon {
 }
 
 nav.navbar .navbar-toggler-icon:focus {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid red;
 }
 
 nav.navbar .navbar-toggler-icon:after,
@@ -267,13 +267,47 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 400px;
 } */
 
-.triangle {
-  height: 50px;
-  width: 100px;
-  background-color: red;
-;
-
+.rectangle {
+  height: 300px;
+  width: 800px;
+  background-color: whitesmoke;
+  position: absolute;
+  bottom: 300px;
+  right: 300px;
 }
+
+.rectangle2 {
+  background-color: whitesmoke;
+  position: absolute;
+  bottom: -300px;
+  right: 500px;
+}
+
+.row {
+  /* height: 300px; */
+  /* width: 800px; */
+  background-color: whitesmoke;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /* bottom: 300px; */
+  /* right: 300px; */
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+
+  }
+
+  .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+  }
+
+
 
 .liquid {
   width: 1504px !important;
@@ -290,6 +324,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .backgroundimg {
   width: 1504px !important;
   height: 851px !important;
+}
+
+.openingtext {
+  padding-top: 15px;
 }
 
 @keyframes welcometext {
