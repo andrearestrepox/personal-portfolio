@@ -2,36 +2,21 @@
 
 .ball {
     position: absolute;
-    top: 100px;
-    bottom: 100px;
+    top: 1260px;
+    right: 480px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    animation: x 5s linear infinite alternate;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
     background-color: white;
-    font-size: 10px;
   }
   .ball h3{
   margin-top: 35px;
   font-size: 23px;
   } 
-   .x {
-    animation: x 13s linear infinite alternate;
-  }
-  .y {
-    animation: y 7s linear infinite alternate;
-  }
-  
-  @keyframes x {
-    100% {
-      transform: translateX( calc(100vw - 200px ) );
-    }
-  }
-  @keyframes y {
-    100% {
-      transform: translateY( calc(100vh - 200px) );
-    }
-  }
   
     @keyframes bounce {
     from {
@@ -44,8 +29,8 @@
   
     .ball1 {
     position: absolute;
-    top: 1255px;
-    right: 500px;
+    top: 1250px;
+    right: 400px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -69,7 +54,7 @@
   }
   .ball2 {
     position: absolute;
-    top: 1250px;
+    top: 1240px;
     right: 300px;
     width: 100px;
     height: 100px;
@@ -92,3 +77,104 @@
       transform: translate3d(0, 200px, 0);
     }
   }  
+
+  .ball3 {
+    position: absolute;
+    top: 1230px;
+    right: 190px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: bounce3 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+    background-color: white;
+  }
+  .ball3 h3{
+    margin-top: 35px;
+    font-size: 23px;
+    } 
+    @keyframes bounce3 {
+        from {
+          transform: translate3d(0,0,0);
+        }
+        to {
+          transform: translate3d(0, 200px, 0);
+        }
+      }  
+      .ball4 {
+        position: absolute;
+        top: 1210px;
+        left: 420px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        animation: bounce4 0.5s;
+        animation-direction: alternate;
+        animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+        animation-iteration-count: infinite;
+        background-color: white;
+      }
+      .ball4 h3{
+        margin-top: 35px;
+        font-size: 23px;
+        } 
+        @keyframes bounce4 {
+            from {
+              transform: translate3d(0,0,0);
+            }
+            to {
+              transform: translate3d(0, 200px, 0);
+            }
+          }  
+          .ball5 {
+            position: absolute;
+            top: 1210px;
+            left: 320px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            animation: bounce5 0.5s;
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+            animation-iteration-count: infinite;
+            background-color: white;
+          }
+          .ball5 h3{
+            margin-top: 35px;
+            font-size: 23px;
+            } 
+            @keyframes bounce5 {
+                from {
+                  transform: translate3d(0,0,0);
+                }
+                to {
+                  transform: translate3d(0, 200px, 0);
+                }
+              }  
+              .ball6 {
+                position: absolute;
+                top: 1210px;
+                left: 220px;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                animation: bounce6 0.5s;
+                animation-direction: alternate;
+                animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+                animation-iteration-count: infinite;
+                background-color: white;
+              }
+              .ball6 h3{
+                margin-top: 35px;
+                font-size: 23px;
+                } 
+                @keyframes bounce6 {
+                    from {
+                      transform: translate3d(0,0,0);
+                    }
+                    to {
+                      transform: translate3d(0, 200px, 0);
+                    }
+                  }  

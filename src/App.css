@@ -275,41 +275,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 300px;
   right: 300px;
 }
-.ball {
-  position: absolute;
-  top: 100px;
-  bottom: 100px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  animation: x 5s linear infinite alternate;
-  background-color: white;
-  font-size: 10px;
-}
-.ball h3{
-margin-top: 35px;
-font-size: 23px;
-} 
- .x {
-  animation: x 13s linear infinite alternate;
-}
-.y {
-  animation: y 7s linear infinite alternate;
-}
-
-@keyframes x {
-  100% {
-    transform: translateX( calc(100vw - 200px ) );
-  }
-}
-@keyframes y {
-  100% {
-    transform: translateY( calc(100vh - 200px) );
-  }
-}
-
-
-
 
 .row {
 
@@ -350,25 +315,12 @@ font-size: 23px;
 .backgroundimg {
   width: 1504px !important;
   height: 851px !important;
+  opacity: 30%;
 }
 
 .openingtext {
   padding-top: 15px;
 }
-
-@keyframes welcometext {
-
-  0%,
-  40%,
-  100% {
-    transform: translateY(0)
-  }
-
-  20% {
-    transform: translateY(-20px)
-  }
-}
-
 
 
 
