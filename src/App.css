@@ -267,49 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 400px;
 } */
 
-.rectangle {
-  height: 300px;
-  width: 800px;
-  background-color: whitesmoke;
-  position: absolute;
-  bottom: 300px;
-  right: 300px;
-}
 
-.row {
-
-  background-color: whitesmoke;
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-
-}
-
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-
-  }
-
-  .column img {
-      margin-top: 8px;
-      vertical-align: middle;
-  }
-
-
-
-.liquid {
-  width: 1504px !important;
-  height: 851px !important;
-}
-
-.sky {
-
-  width: 1504px !important;
-  height: 851px !important;
-}
 
 
 .backgroundimg {
@@ -318,9 +276,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 30%;
 }
 
-.openingtext {
-  padding-top: 15px;
-}
 
 
 
