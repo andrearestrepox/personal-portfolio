@@ -7,7 +7,7 @@ function Skills() {
 
         <div>
         
-            <img className='liquid' src={roomimg} alt="liqud swirl image" />
+            {/* <img className='liquid' src={roomimg} alt="liqud swirl image" /> */}
             <div>
             {/* <h2>Skills</h2> */}
              </div>

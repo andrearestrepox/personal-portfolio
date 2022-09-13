@@ -9,7 +9,7 @@ function Home() {
         <img src={room} alt="background" className='backgroundimg'/>
       
        <div><h3 className='openingtext'>Hi there, I'm </h3></div> 
-       <div><h1>Andrea</h1></div> 
+       <div><h1 className='openName'>Andrea</h1></div> 
        <div><h3>Full Stack Developer</h3></div>
        <div><h4>I'm a creative </h4></div>
 

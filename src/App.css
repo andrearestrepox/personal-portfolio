@@ -52,6 +52,20 @@ body {
   padding-bottom: 20px;
 }
 
+.openingtext {
+ position: relative;
+ bottom: 500px;
+ right: 600px;
+ font-family:'Abril Fatface', cursive !important;
+}
+
+.openName {
+position: relative;
+bottom: 500px;
+right: 590px;
+font-family:'Libre Baskerville', serif ;
+}
+
 .name {
   margin-left: -80px;
   font-size: 20px;
@@ -281,7 +295,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
+/* Projects*/
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
 
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #AA367C -5.91, #4A2FBD 111.58% );
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.project h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.project p {
+  color: #B8B8B8;
+}
 
 .App {
   text-align: center;
