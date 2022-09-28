@@ -11,11 +11,7 @@ function Home() {
        {/* <div><h3>Full Stack Developer</h3></div>
        <div><h4>I'm a creative </h4></div> */}
       
-        <div className='contact-btn'>
-       <a href='mailto:andrearestrepox@gmail.com'>
-        <button className='button'>Contact Me </button>
-       </a>
-        </div>
+       
        </div>
         
         

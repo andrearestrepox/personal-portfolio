@@ -31,6 +31,30 @@
 
 /* Default CSS */
 
+@media only screen and (max-width: 600px) {
+  .openName{
+    width: 100%;
+    right: 100px !important;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .nested {
+  width: 100% !important;
+  left: 15px !important;
+
+  /* background-color: red; */
+
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .name {
+    color: gray;
+ margin-left: 20px !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -60,28 +84,68 @@ body {
  font-family:'Libre Baskerville', serif ;
 } */
 
+
+/* HOME */
 .openName {
   position: relative;
   top: 200px;
-  right: 20px;
+  right: 40px;
   margin-left: 100px;
   font-size: 55px;
   font-family:'Libre Baskerville', serif ;
 }
-.button {
+
+/* FOOTER */
+
+/* .button {
   background-color: black;
   color: white;
   height: 50px;
   width: 200px;
   position: relative;
   top: 575px;
+  margin-top: 20px;
+} */
+
+
+
+
+/* SKILLS */
+
+.skills-title {
+  position: relative;
+  top: 500px;
+  font-size: 60px;
 }
 
-.name {
-  margin-left: -80px;
-  font-size: 30px;
-
+.nested {
+  position: relative;
+  top: 600px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 70px;
+  grid-gap: 15px;
+  padding: 30px;
+  width: 700px;
+  left: 400px;
 }
+
+.nested > div{
+  border: #333 1px solid;
+}
+
+@media(prefers-reduced-motion: no-preference) {
+  .openName {
+    animation-name: wipe-enter;
+    animation-duration: 1s;
+    animation-iteration-count:initial;
+  }
+}
+
+
+
+
 
 
 
@@ -99,6 +163,11 @@ h6 {
 
 /* Navbar section */
 
+.name {
+  margin-left: -80px;
+  font-size: 30px;
+
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -304,4 +373,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes wipe-enter {
+  0% {
+    transform: scale(0, .025);
+  }
+
+50% {
+  transform: scale(1, .025);
+}
 }

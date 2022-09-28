@@ -5,7 +5,7 @@ import linkedin from '../assets/img/linkedin.svg';
 import { HashLink } from 'react-router-hash-link'
 import {
    BrowserRouter as Router
-  } from "react-router-dom";
+  } from "react-router-dom"; 
 
 
 
